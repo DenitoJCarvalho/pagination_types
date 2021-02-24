@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#paginate {
+    width: 75%;
+}
+
+#paginate .item{
+    width: 100%;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    background-color: tomato;
+}
+
+
+.pagination {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .first, 
+.pagination .prev, 
+.pagination .numbers,
+.pagination .next,
+.pagination .last {
+    width: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pagination .numbers {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.active {
+    color: orangered;
+    transform: scale(1.4)
+}
