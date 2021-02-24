@@ -6,15 +6,21 @@
 
 #paginate {
     width: 75%;
+    background-color: rgba(0,0,0,1);
 }
 
-#paginate .item{
+#paginate .list .item{
+    border: hidden;
+    border-bottom: 2px solid rgba(107, 105, 105, .7);
     width: 100%;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
     letter-spacing: 5px;
-    background-color: tomato;
+    color: rgba(255, 255, 255, 1);
 }
 
 
@@ -25,6 +31,7 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .pagination .first, 
